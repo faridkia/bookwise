@@ -1,0 +1,28 @@
+# Django-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+.env
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Environment files
+.env
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+*.egg-info/
